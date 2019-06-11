@@ -1,0 +1,15 @@
+# ciscn_2019_northern_China_day2_web1
+
+version: "2"
+
+services:
+
+  web:
+    build: .
+    image: ctftraining/ciscn_2019_northern_china_day2_web1
+    restart: always
+    ports:
+      - "127.0.0.1:8302:80"
+    environment:
+      - FLAG=flag{glzjin_wants_a_girl_firend}
+      - FLAG_TABLE=ctf
