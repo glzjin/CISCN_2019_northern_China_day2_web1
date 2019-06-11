@@ -3,7 +3,7 @@
 <title>Hack World</title>
 </head>
 <body>
-<h3>All You Want Is In Table 'ctf' and the column is 'flag'</h3>
+<h3>All You Want Is In Table 'flag' and the column is 'flag'</h3>
 <h3>Now, just give the id of passage</h3>
 <form action="index.php" method="POST">
 <input type="text" name="id">
